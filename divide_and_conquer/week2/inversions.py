@@ -119,7 +119,7 @@ def merge_and_count_split_with_inv(in1, in2):
     output += in2[j:]
     return output, inversion_count, inversions
 
-print sort_and_count_with_inv([1, 3, 5, 2, 4, 6])
+# print sort_and_count_with_inv([1, 3, 5, 2, 4, 6])
 
 def test_sort_and_count_with_inv(f):
     assert f([1, 2, 3]) == ([1, 2, 3], 0, [])
